@@ -7,12 +7,14 @@ export async function cli(rawArgs) {
     }, {
         argv: rawArgs.slice(2),
     });
-    const n = 0;
-    if (args[-n]) {
-        if (args[-n] < 1) {
+    let n = 0;
+    if (args['-n']) {
+        if (args['-n'] < 1) {
             n = 0;
-        } else if (args[-n] > 20) {
+        } else if (args['-n'] > 20) {
             n = 20;
+        } else {
+            n = args['-n']
         }
     }
     const searchTerm = args['_'].join(' ');
