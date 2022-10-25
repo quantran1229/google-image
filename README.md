@@ -1,8 +1,13 @@
 # google-image-cli
 
-google-image-cli is a cli toolkit to search using google and show 20 images to cli.
+google-image-cli is a cli toolkit to search using google and show up to 20 images to cli.
 
 ## Installation
+Install 
+```bash
+npm i -g google-image-cli
+```
+
 
 Run with npx
 
