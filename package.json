@@ -1,6 +1,6 @@
 {
   "name": "google-image-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get image from google image",
   "main": "index.js",
   "scripts": {
