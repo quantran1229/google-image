@@ -6,6 +6,8 @@ Using [terminal-image](https://www.npmjs.com/package/terminal-image) to display 
 
 *In iTerm, the image will be [displayed in full resolution](screenshot-iterm.jpg), since iTerm has [special image support](https://www.iterm2.com/documentation-images.html).*
 
+Note: Must be Node > 14.0.0
+
 ## Installation
 Install 
 ```npm
