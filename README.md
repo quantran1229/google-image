@@ -2,17 +2,21 @@
 
 google-image-cli is a cli toolkit to search using google and show up to 20 images to cli.
 
+Using [terminal-image](https://www.npmjs.com/package/terminal-image) to display image to terminal.
+
+*In iTerm, the image will be [displayed in full resolution](screenshot-iterm.jpg), since iTerm has [special image support](https://www.iterm2.com/documentation-images.html).*
+
 ## Installation
 Install 
-```bash
+```npm
 npm i -g google-image-cli
 ```
 
 
 Run with npx
 
-```bash
-  npx google-image-cli -n number text-to-search
+```npm
+npx google-image-cli -n number text-to-search
 ```
 
 `-n` : number of images (max 20 images)

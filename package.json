@@ -1,7 +1,7 @@
 {
   "name": "google-image-cli",
-  "version": "0.1.2",
-  "description": "Get image from google image",
+  "version": "0.1.3",
+  "description": "Get image from google image and display them to terminal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,9 @@
   },
   "keywords": [
     "google",
-    "image"
+    "image",
+    "terminal",
+    "cli"
   ],
   "bin": {
     "@quantran/google-image-cli": "bin/search-image.js",
