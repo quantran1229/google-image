@@ -1,0 +1,33 @@
+{
+  "name": "google-image-cli",
+  "version": "0.1.0",
+  "description": "Get image from google image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quantran1229/google-image.git"
+  },
+  "keywords": [
+    "google",
+    "image"
+  ],
+  "bin": {
+    "@quantran/google-image-cli": "bin/search-image.js",
+    "google-image-cli": "bin/search-image.js"
+  },
+  "author": "Quan Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantran1229/google-image/issues"
+  },
+  "homepage": "https://github.com/quantran1229/google-image#readme",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "got": "^12.5.2",
+    "terminal-image": "^2.0.0"
+  }
+}
