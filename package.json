@@ -1,7 +1,7 @@
 {
   "name": "google-image-cli",
-  "version": "0.1.4",
-  "description": "Get image from google image and display them to terminal",
+  "version": "1.0.0",
+  "description": "Get images from google image and display them to terminal up to 20 images",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
